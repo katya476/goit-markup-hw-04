@@ -10,6 +10,7 @@
     --icon-color:#AFB1B8;
  }
  /*------------------reset---------------*/
+ 
  .visually-hidden {
    position: absolute;
    white-space: nowrap;
@@ -63,14 +64,11 @@
  color:var(--title-text-color);
  background-color: var(--primary-backgroungd-color);
  }
- *,
-  *::after, 
-  *::before { box-sizing: inherit; 
-  }
- 
  .html{
   box-sizing:border-box;
  }
+
+ 
  .accent{
     color:var(--accent-color);
   text-decoration: none;
