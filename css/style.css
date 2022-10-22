@@ -364,12 +364,17 @@ height:92px;
  line-height:1.7;
  color: rgba(255, 255, 255, 0.6);
     }
+    .contacts-link-footer:hover{
+      color:var(--accent-color);
+    }
     .contacts-link-address{
     font-style:normal;
     text-decoration: none;
     line-height:1.7;
     color: var(--primary-backgroungd-color);
-   
+    }
+    .contacts-link-address:hover{
+      color: var(--accent-color);
     }
     .footer{
        background-color:var(--background-color);
